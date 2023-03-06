@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "packages/next-app-1"
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/.pnp.*": true
+    },
+    "editor.formatOnSave": true,
+    "typescript.tsdk": ".yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  },
+  "extensions": {
+    "recommendations": ["arcanis.vscode-zipfs", "esbenp.prettier-vscode"]
+  }
+}

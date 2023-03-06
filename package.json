@@ -1,0 +1,12 @@
+{
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "next-app-1": "yarn workspace next-app-1"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
+}
