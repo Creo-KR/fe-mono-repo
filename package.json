@@ -7,6 +7,19 @@
     "next-app-1": "yarn workspace next-app-1"
   },
   "devDependencies": {
+    "@types/eslint": "latest",
+    "@types/prettier": "latest",
+    "@types/react": "18.0.28",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "next": "13.2.3",
+    "prettier": "latest",
+    "react": "18.2.0",
     "typescript": "4.9.5"
   }
 }

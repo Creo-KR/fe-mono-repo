@@ -7,10 +7,10 @@ yarn set version latest
 yarn init -2
 yarn add -D typescript
 yarn tsc --init
-yarn dlx @yarnpkg/sdks vscode
 yarn plugin import typescript
 yarn plugin import workspace-tools
 yarn plugin import interactive-tools
+yarn dlx @yarnpkg/sdks vscode
 ```
 
 ## Typescript config
@@ -30,8 +30,9 @@ tsconfig.json
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-  }
+    "isolatedModules": true
+  },
+  "exclude": ["dist", "**/*.js"]
 }
 ```
 
@@ -81,10 +82,20 @@ packages/next-app-1/package.json
     }
   ],
   "settings": {
-    "editor.formatOnSave": true
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/.pnp.*": true
+    },
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "../../.yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
   },
   "extensions": {
-    "recommendations": ["arcanis.vscode-zipfs", "esbenp.prettier-vscode"]
+    "recommendations": [
+      "arcanis.vscode-zipfs",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ]
   }
 }
 ```

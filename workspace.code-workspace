@@ -13,10 +13,17 @@
       "**/.pnp.*": true
     },
     "editor.formatOnSave": true,
-    "typescript.tsdk": ".yarn/sdks/typescript/lib",
+    "eslint.packageManager": "yarn",
+    "eslint.nodePath": "../../.yarn/sdks",
+    "prettier.prettierPath": "../../.yarn/sdks/prettier/index.js",
+    "typescript.tsdk": "fe-mono-repo/.yarn/sdks/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true
   },
   "extensions": {
-    "recommendations": ["arcanis.vscode-zipfs", "esbenp.prettier-vscode"]
+    "recommendations": [
+      "arcanis.vscode-zipfs",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ]
   }
 }
