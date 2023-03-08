@@ -87,7 +87,7 @@ packages/next-app-1/package.json
       "**/.pnp.*": true
     },
     "editor.formatOnSave": true,
-    "typescript.tsdk": "../../.yarn/sdks/typescript/lib",
+    "typescript.tsdk": "fe-mono-repo/.yarn/sdks/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true
   },
   "extensions": {
