@@ -65,6 +65,7 @@ packages/common-components/tsconfig.json
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "composite": true,
     "paths": {
       "@common-components": ["./src/index.ts"]
       "@common-components/*": ["./src/*"]

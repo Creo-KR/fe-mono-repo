@@ -1,4 +1,5 @@
 module.exports = {
-  extends: ["eslint:recommended", "next", "prettier"],
-  plugins: ["prettier", "react", "@typescript-eslint"],
+  root: true,
+  extends: ['eslint:recommended', 'next', 'prettier'],
+  plugins: ['prettier', 'react', '@typescript-eslint'],
 };
