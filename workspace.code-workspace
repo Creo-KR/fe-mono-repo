@@ -5,6 +5,9 @@
     },
     {
       "path": "packages/next-app-1"
+    },
+    {
+      "path": "packages/common-components"
     }
   ],
   "settings": {
@@ -12,6 +15,7 @@
       "**/.yarn": true,
       "**/.pnp.*": true
     },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "eslint.packageManager": "yarn",
     "eslint.nodePath": "../../.yarn/sdks",

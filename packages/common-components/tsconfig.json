@@ -5,11 +5,9 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@common-components/*": ["../common-components/src/*"],
-      "@common-components": ["../common-components/src/index.ts"]
-    },
-    "noEmit": true
+      "@common-components": ["./src/index.ts"],
+      "@common-components/*": ["./src/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

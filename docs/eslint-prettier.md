@@ -27,6 +27,7 @@ workspace.code-workspace
 {
   "settings": {
     ...,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "eslint.packageManager": "yarn",
     "eslint.nodePath": "../../.yarn/sdks",
     "prettier.prettierPath": "../../.yarn/sdks/prettier/index.js",
@@ -43,4 +44,26 @@ module.exports = {
   extends: ["eslint:recommended", "next", "prettier"],
   plugins: ["prettier", "react", "@typescript-eslint"],
 };
+```
+
+## Set Prettier Configuration
+
+.prettierrc.json
+
+```
+{
+  "singleQuote": true,
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "arrowParens": "avoid"
+}
+
+```
+
+.prettierignore
+
+```
+# Ignore artifacts:
+build
+coverage
 ```
