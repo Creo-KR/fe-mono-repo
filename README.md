@@ -1,5 +1,17 @@
 # fe-mono-repo
 
+## Tech Stack
+
+### Language: Typescript
+
+### Repository: Monorepo, Yarn Workspace
+
+### Framework: NextJs
+
+### Lint: ESLint, Prettier
+
+### Storybook
+
 ## Root Repository / Yarn Init, Install Typescript, SDK
 
 ```
